@@ -7,9 +7,10 @@ const headingText = props => (
 
 const styles = StyleSheet.create({
     textHeading: {
+        paddingBottom: 20,
         fontSize: 28,
         fontWeight: "bold",
-        color: "#fff"
+        color: "#ffff00"
 
         }
 })

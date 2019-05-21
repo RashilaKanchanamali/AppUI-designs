@@ -24,7 +24,7 @@ const styles = {
     buttonStyle: {
         backgroundColor: '#00ced1',
         borderRadius: 4,
-        width: 80
+        width: 250
     }
 }
 

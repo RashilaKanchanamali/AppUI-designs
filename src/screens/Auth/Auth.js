@@ -36,10 +36,12 @@ class AuthScreen extends Component {
                             </View>
                             <View style={styles.buttonContainer}>
                                 <Button>LOGIN</Button>
-                                <Text style={styles.textContainer}> Forgot Password? </Text>
                             </View>
-                            <View style={styles.wordContainer}></View>
+                            <View style={styles.wordContainer}>
+                            <Text>Developed By Techsys</Text>
+                            </View>
                     </View>
+                   
             </View>
         );
     }
@@ -50,16 +52,16 @@ export default AuthScreen;
 const styles = StyleSheet.create({
     container: {
         flex:1,
-        //justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#778899"
+        backgroundColor: "#778899",
+        paddingTop: 20
     },
     container2: {
         paddingTop: 20,
         backgroundColor: "#fff",
         borderRadius: 20,
         width: 300,
-        height: 470,
+        height: 400,
         alignItems: "center"
     },
     textSignIn: {
@@ -70,23 +72,14 @@ const styles = StyleSheet.create({
     input: {
         fontSize:15,
         backgroundColor: "#e6e6fa",
-        borderRadius: 8,
+        borderRadius: 4,
         width: 250,
     },
     inputContainer: {
         padding: 10
     },
     buttonContainer: {
-        width: 300,
-        paddingTop: 50,
-        paddingRight: 170,
-        alignItems: 'flex-end'
-    },
-    textContainer: {
-        
-        
-    },
-    wordContainer: {
-        backgroundColor: "#a9a9a9"
+        paddingTop: 30,
+        paddingBottom: 70
     }
 })

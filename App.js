@@ -1,7 +1,6 @@
 import { Navigation } from 'react-native-navigation';
-
-
 import AuthScreen from './src/screens/Auth/Auth';
+
 
 //Register Screens
 Navigation.registerComponent("app-ui.AuthScreen", () => AuthScreen);
@@ -10,6 +9,9 @@ Navigation.registerComponent("app-ui.AuthScreen", () => AuthScreen);
 Navigation.startSingleScreenApp({
   screen: {
     screen: "app-ui.AuthScreen",
-    title: "Login"
+    navigatorStyle: {
+      navBarHidden: true
+    }
   }
+  
 });
